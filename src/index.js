@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { RouterProvider } from "react-router-dom";
+import Routes from "./routes";
+
+
 
 //styles
+import './index.css';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={Routes} />
   </React.StrictMode>
 );
 
