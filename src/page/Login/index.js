@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row, Container, Form,Card } from "react-bootstrap";
-import { LoginCard, LoginButton } from "./styles";
+import { LoginCard, LoginButton,  } from "./styles";
 
 function Login(){
 return (
